@@ -1,0 +1,23 @@
+﻿  DynamicRigidParticleObject.cpp
+  moc_ICASPHPlus.cpp
+  moc_glwidget.cpp
+  ICASPHPlus.cpp
+  IISPHComputer.cpp
+  IISPHFluidObject.cpp
+  SPHManager.cpp
+  glwidget.cpp
+d:\icasphplus5_7\icasphplus\icasphplus\DynamicRigidParticleObject.h(3): warning C4067: 预处理器指令后有意外标记 - 应输入换行符 (编译源文件 DynamicRigidParticleObject.cpp)
+D:\ICASPHPlus5_7\ICASPHPlus\ICASPHPlus\DynamicRigidParticleObject.h(3): warning C4067: 预处理器指令后有意外标记 - 应输入换行符 (编译源文件 SPH\IISPHFluidObject.cpp)
+D:\ICASPHPlus5_7\ICASPHPlus\ICASPHPlus\DynamicRigidParticleObject.h(3): warning C4067: 预处理器指令后有意外标记 - 应输入换行符 (编译源文件 SPH\IISPHComputer.cpp)
+D:\ICASPHPlus5_7\ICASPHPlus\ICASPHPlus\DynamicRigidParticleObject.h(3): warning C4067: 预处理器指令后有意外标记 - 应输入换行符 (编译源文件 SPH\SPHManager.cpp)
+  main.cpp
+d:\icasphplus5_7\icasphplus\icasphplus\sph\iisphcomputer.cpp(1212): warning C4715: “IISPHComputer::ProcessDistanceField”: 不是所有的控件路径都返回值
+d:\icasphplus5_7\icasphplus\icasphplus\DynamicRigidParticleObject.h(3): warning C4067: 预处理器指令后有意外标记 - 应输入换行符 (编译源文件 GeneratedFiles\Debug\moc_glwidget.cpp)
+d:\icasphplus5_7\icasphplus\icasphplus\DynamicRigidParticleObject.h(3): warning C4067: 预处理器指令后有意外标记 - 应输入换行符 (编译源文件 glwidget.cpp)
+d:\icasphplus5_7\icasphplus\icasphplus\DynamicRigidParticleObject.h(3): warning C4067: 预处理器指令后有意外标记 - 应输入换行符 (编译源文件 GeneratedFiles\Debug\moc_ICASPHPlus.cpp)
+d:\icasphplus5_7\icasphplus\icasphplus\DynamicRigidParticleObject.h(3): warning C4067: 预处理器指令后有意外标记 - 应输入换行符 (编译源文件 ICASPHPlus.cpp)
+glwidget.cpp(96): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
+d:\icasphplus5_7\icasphplus\icasphplus\DynamicRigidParticleObject.h(3): warning C4067: 预处理器指令后有意外标记 - 应输入换行符 (编译源文件 main.cpp)
+  qrc_ICASPHPlus.cpp
+  ICASPHPlus.vcxproj -> D:\ICASPHPlus5_7\ICASPHPlus\x64\Debug\ICASPHPlus.exe
+  ICASPHPlus.vcxproj -> D:\ICASPHPlus5_7\ICASPHPlus\x64\Debug\ICASPHPlus.pdb (Full PDB)

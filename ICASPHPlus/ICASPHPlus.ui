@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ICASPHPlusClass</class>
+ <widget class="QMainWindow" name="ICASPHPlusClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1060</width>
+    <height>795</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ICASPHPlus</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>80</y>
+      <width>1061</width>
+      <height>661</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="BaseLayout"/>
+   </widget>
+   <widget class="QLabel" name="SPHTypeName">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>431</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe Print</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>IISPH DamBreak</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>0</y>
+      <width>20</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1060</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuSPH">
+    <property name="title">
+     <string>SPH Type</string>
+    </property>
+    <addaction name="actionIISPH"/>
+    <addaction name="actionWCSPH"/>
+   </widget>
+   <widget class="QMenu" name="menuSPH_Interaction">
+    <property name="title">
+     <string>SPH Interaction</string>
+    </property>
+    <addaction name="actionSingleBrak"/>
+    <addaction name="actionDoubleDamBreak"/>
+    <addaction name="actionStaticRigidInteraction"/>
+    <addaction name="actionSurfaceSimulation"/>
+   </widget>
+   <widget class="QMenu" name="menuDistanceField">
+    <property name="title">
+     <string>DistanceField</string>
+    </property>
+    <addaction name="actionOn"/>
+    <addaction name="actionOff"/>
+   </widget>
+   <addaction name="menuSPH"/>
+   <addaction name="menuSPH_Interaction"/>
+   <addaction name="menuDistanceField"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionStart"/>
+   <addaction name="actionStop"/>
+   <addaction name="separator"/>
+   <addaction name="actionSavePic"/>
+   <addaction name="actionshowBoundaryPar"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionStart">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Resources/start.png</normaloff>Resources/start.png</iconset>
+   </property>
+   <property name="text">
+    <string>Start</string>
+   </property>
+  </action>
+  <action name="actionStop">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Resources/stop.png</normaloff>Resources/stop.png</iconset>
+   </property>
+   <property name="text">
+    <string>Stop</string>
+   </property>
+  </action>
+  <action name="actionSavePic">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Resources/savepic.png</normaloff>Resources/savepic.png</iconset>
+   </property>
+   <property name="text">
+    <string>SavePic</string>
+   </property>
+  </action>
+  <action name="actionshowBoundaryPar">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Resources/showBoundaryP.png</normaloff>Resources/showBoundaryP.png</iconset>
+   </property>
+   <property name="text">
+    <string>showBoundaryPar</string>
+   </property>
+  </action>
+  <action name="actionIISPH">
+   <property name="text">
+    <string>IISPH</string>
+   </property>
+  </action>
+  <action name="actionWCSPH">
+   <property name="text">
+    <string>WCSPH</string>
+   </property>
+  </action>
+  <action name="actionSingleBrak">
+   <property name="text">
+    <string>SingleDamBreak</string>
+   </property>
+  </action>
+  <action name="actionDoubleDamBreak">
+   <property name="text">
+    <string>DoubleDamBreak</string>
+   </property>
+  </action>
+  <action name="actionStaticRigidInteraction">
+   <property name="text">
+    <string>StaticRigidInteraction</string>
+   </property>
+  </action>
+  <action name="actionSurfaceSimulation">
+   <property name="text">
+    <string>SurfaceSimulation</string>
+   </property>
+  </action>
+  <action name="actionOn">
+   <property name="text">
+    <string>On</string>
+   </property>
+  </action>
+  <action name="actionOff">
+   <property name="text">
+    <string>Off</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="ICASPHPlus.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>actionStart</sender>
+   <signal>triggered()</signal>
+   <receiver>ICASPHPlusClass</receiver>
+   <slot>onStart()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>529</x>
+     <y>397</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionStop</sender>
+   <signal>triggered()</signal>
+   <receiver>ICASPHPlusClass</receiver>
+   <slot>onStop()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>529</x>
+     <y>397</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionSavePic</sender>
+   <signal>triggered()</signal>
+   <receiver>ICASPHPlusClass</receiver>
+   <slot>isSavePic()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>529</x>
+     <y>397</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionshowBoundaryPar</sender>
+   <signal>triggered()</signal>
+   <receiver>ICASPHPlusClass</receiver>
+   <slot>isShowBoundaryPartilces()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>529</x>
+     <y>397</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionIISPH</sender>
+   <signal>triggered()</signal>
+   <receiver>ICASPHPlusClass</receiver>
+   <slot>changeIISPH()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>529</x>
+     <y>397</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionWCSPH</sender>
+   <signal>triggered()</signal>
+   <receiver>ICASPHPlusClass</receiver>
+   <slot>changeWCSPH()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>529</x>
+     <y>397</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionDoubleDamBreak</sender>
+   <signal>triggered()</signal>
+   <receiver>ICASPHPlusClass</receiver>
+   <slot>changeDoubleBreak()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>529</x>
+     <y>397</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionStaticRigidInteraction</sender>
+   <signal>triggered()</signal>
+   <receiver>ICASPHPlusClass</receiver>
+   <slot>changeStaticRigid()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>529</x>
+     <y>397</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionSurfaceSimulation</sender>
+   <signal>triggered()</signal>
+   <receiver>ICASPHPlusClass</receiver>
+   <slot>changeSurface()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>529</x>
+     <y>397</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionSingleBrak</sender>
+   <signal>triggered()</signal>
+   <receiver>ICASPHPlusClass</receiver>
+   <slot>changeSingleBreak()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>529</x>
+     <y>397</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionOn</sender>
+   <signal>triggered()</signal>
+   <receiver>ICASPHPlusClass</receiver>
+   <slot>onDrawDistanceField()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>529</x>
+     <y>397</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionOff</sender>
+   <signal>triggered()</signal>
+   <receiver>ICASPHPlusClass</receiver>
+   <slot>offDrawDistanceField()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>529</x>
+     <y>397</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>onStart()</slot>
+  <slot>onStop()</slot>
+  <slot>isSavePic()</slot>
+  <slot>isShowBoundaryPartilces()</slot>
+  <slot>changeIISPH()</slot>
+  <slot>changeDoubleBreak()</slot>
+  <slot>changeStaticRigid()</slot>
+  <slot>changeSurface()</slot>
+  <slot>changeWCSPH()</slot>
+  <slot>changeSingleBreak()</slot>
+  <slot>onDrawDistanceField()</slot>
+  <slot>offDrawDistanceField()</slot>
+ </slots>
+</ui>

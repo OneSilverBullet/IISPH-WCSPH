@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{d66bf8d1-f223-4e1b-9961-6c3020000e47}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{1ad423a7-ea28-4852-ae8e-ad7f14fd3c36}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\SPH">
+      <UniqueIdentifier>{4aecd2bc-f992-4d6b-bc8e-ce5b5c8ee7f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SPH\IISPH">
+      <UniqueIdentifier>{2c6c63a3-5c86-4628-8f18-fcd935928159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SPH\WCSPH">
+      <UniqueIdentifier>{39c1d25c-4efa-435d-a808-c874f8129067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ToolKit">
+      <UniqueIdentifier>{6b783ba3-ec14-49d4-9909-cd5890a584b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Grid">
+      <UniqueIdentifier>{8ef9e6aa-fe7d-4271-9c5b-6cfc449a05ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Boundary">
+      <UniqueIdentifier>{d1a6a3c6-fefa-4bf8-a281-f04cc0dafe7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Grid">
+      <UniqueIdentifier>{5974d0b1-dae1-4a09-9302-fd084e133e59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Boundary">
+      <UniqueIdentifier>{d8949dc0-7f47-4d4d-9f79-0045403cf493}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ToolKit">
+      <UniqueIdentifier>{a3c1147d-8668-4230-9a88-cb1d83643ee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SPH">
+      <UniqueIdentifier>{6380653e-6514-4b42-81f2-befdb8727e59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SPH\IISPH">
+      <UniqueIdentifier>{93ca3e1d-519f-41da-9810-dbf32e414354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SPH\WCSPH">
+      <UniqueIdentifier>{f898de3f-cd81-44ff-81cf-e0633c89d0bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MarchingCube">
+      <UniqueIdentifier>{8de3262f-c8ca-4af1-bf61-f5c081bcceba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MarchingCube">
+      <UniqueIdentifier>{ca1369fe-e394-4a22-85ac-19b3985f5efe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DynamicRigid">
+      <UniqueIdentifier>{f8266dfd-e104-4c5a-9c7e-05b74c177d1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DynamicRigid">
+      <UniqueIdentifier>{32c90a02-611f-49d8-a88b-3dc69ffc6728}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ICASPHPlus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ICASPHPlus.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ICASPHPlus.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_ICASPHPlus.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_glwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_glwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SPH\SPHManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SPH\IISPHComputer.cpp">
+      <Filter>Source Files\SPH\IISPH</Filter>
+    </ClCompile>
+    <ClCompile Include="SPH\IISPHFluidObject.cpp">
+      <Filter>Source Files\SPH\IISPH</Filter>
+    </ClCompile>
+    <ClCompile Include="SPH\IISPHParticle.cpp">
+      <Filter>Source Files\SPH\IISPH</Filter>
+    </ClCompile>
+    <ClCompile Include="SPH\WCSPHComputer.cpp">
+      <Filter>Source Files\SPH\WCSPH</Filter>
+    </ClCompile>
+    <ClCompile Include="SPH\WCSPHFluidObject.cpp">
+      <Filter>Source Files\SPH\WCSPH</Filter>
+    </ClCompile>
+    <ClCompile Include="SPH\WCSPHParticle.cpp">
+      <Filter>Source Files\SPH\WCSPH</Filter>
+    </ClCompile>
+    <ClCompile Include="SPH\GridCell.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="SPH\HashGridList.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="SPH\Boundary.cpp">
+      <Filter>Source Files\Boundary</Filter>
+    </ClCompile>
+    <ClCompile Include="SPH\ParticleObject.cpp">
+      <Filter>Source Files\Boundary</Filter>
+    </ClCompile>
+    <ClCompile Include="SPH\FunctionKit.cpp">
+      <Filter>Source Files\ToolKit</Filter>
+    </ClCompile>
+    <ClCompile Include="SPH\Matrix3f.cpp">
+      <Filter>Source Files\ToolKit</Filter>
+    </ClCompile>
+    <ClCompile Include="SPH\ShareData.cpp">
+      <Filter>Source Files\ToolKit</Filter>
+    </ClCompile>
+    <ClCompile Include="SPH\SPHKernel.cpp">
+      <Filter>Source Files\ToolKit</Filter>
+    </ClCompile>
+    <ClCompile Include="SPH\Vector3f.cpp">
+      <Filter>Source Files\ToolKit</Filter>
+    </ClCompile>
+    <ClCompile Include="SPH\Vector3i.cpp">
+      <Filter>Source Files\ToolKit</Filter>
+    </ClCompile>
+    <ClCompile Include="DistanceField.cpp">
+      <Filter>Source Files\MarchingCube</Filter>
+    </ClCompile>
+    <ClCompile Include="HashGrid.cpp">
+      <Filter>Source Files\MarchingCube</Filter>
+    </ClCompile>
+    <ClCompile Include="HGrid.cpp">
+      <Filter>Source Files\MarchingCube</Filter>
+    </ClCompile>
+    <ClCompile Include="MCDistField.cpp">
+      <Filter>Source Files\MarchingCube</Filter>
+    </ClCompile>
+    <ClCompile Include="Point3D.cpp">
+      <Filter>Source Files\MarchingCube</Filter>
+    </ClCompile>
+    <ClCompile Include="Quaternion.cpp">
+      <Filter>Source Files\ToolKit</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicRigidParticleObject.cpp">
+      <Filter>Source Files\DynamicRigid</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="ICASPHPlus.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ICASPHPlus.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ICASPHPlus.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glwidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_ICASPHPlus.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SPH\SPHManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SPH\IISPHComputer.h">
+      <Filter>Header Files\SPH\IISPH</Filter>
+    </ClInclude>
+    <ClInclude Include="SPH\IISPHFluidObject.h">
+      <Filter>Header Files\SPH\IISPH</Filter>
+    </ClInclude>
+    <ClInclude Include="SPH\IISPHParticle.h">
+      <Filter>Header Files\SPH\IISPH</Filter>
+    </ClInclude>
+    <ClInclude Include="SPH\WCSPHComputer.h">
+      <Filter>Header Files\SPH\WCSPH</Filter>
+    </ClInclude>
+    <ClInclude Include="SPH\WCSPHFluidObject.h">
+      <Filter>Header Files\SPH\WCSPH</Filter>
+    </ClInclude>
+    <ClInclude Include="SPH\WCSPHParticle.h">
+      <Filter>Header Files\SPH\WCSPH</Filter>
+    </ClInclude>
+    <ClInclude Include="SPH\GridCell.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="SPH\HashGridList.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="SPH\ParticleObject.h">
+      <Filter>Header Files\Boundary</Filter>
+    </ClInclude>
+    <ClInclude Include="SPH\StaticRigidObject.h">
+      <Filter>Header Files\Boundary</Filter>
+    </ClInclude>
+    <ClInclude Include="SPH\Boundary.h">
+      <Filter>Header Files\Boundary</Filter>
+    </ClInclude>
+    <ClInclude Include="SPH\FunctionKit.h">
+      <Filter>Header Files\ToolKit</Filter>
+    </ClInclude>
+    <ClInclude Include="SPH\Matrix3f.h">
+      <Filter>Header Files\ToolKit</Filter>
+    </ClInclude>
+    <ClInclude Include="SPH\ShareData.h">
+      <Filter>Header Files\ToolKit</Filter>
+    </ClInclude>
+    <ClInclude Include="SPH\SPHKernel.h">
+      <Filter>Header Files\ToolKit</Filter>
+    </ClInclude>
+    <ClInclude Include="SPH\Vector3f.h">
+      <Filter>Header Files\ToolKit</Filter>
+    </ClInclude>
+    <ClInclude Include="SPH\Vector3i.h">
+      <Filter>Header Files\ToolKit</Filter>
+    </ClInclude>
+    <ClInclude Include="DistanceField.h">
+      <Filter>Header Files\MarchingCube</Filter>
+    </ClInclude>
+    <ClInclude Include="MCTriTable.h">
+      <Filter>Header Files\MarchingCube</Filter>
+    </ClInclude>
+    <ClInclude Include="HashGrid.h">
+      <Filter>Header Files\MarchingCube</Filter>
+    </ClInclude>
+    <ClInclude Include="HGrid.h">
+      <Filter>Header Files\MarchingCube</Filter>
+    </ClInclude>
+    <ClInclude Include="MCDistField.h">
+      <Filter>Header Files\MarchingCube</Filter>
+    </ClInclude>
+    <ClInclude Include="Point3D.h">
+      <Filter>Header Files\MarchingCube</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicRigidObject.h">
+      <Filter>Header Files\DynamicRigid</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicRigidParticle.h">
+      <Filter>Header Files\DynamicRigid</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicRigidParticleObject.h">
+      <Filter>Header Files\DynamicRigid</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>Header Files\ToolKit</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
