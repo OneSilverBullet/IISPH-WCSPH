@@ -1,35 +1,42 @@
-# IISPH-WCSPH
+# 🌊 **IISPH-WCSPH: SPH Fluid Simulation Framework**
 
+### 📜 **0. Project Motivation**
 
-### 0. 项目初衷
+Welcome to the **IISPH-WCSPH** project! This project serves as a **basic framework** for the **SPH** (Smoothed Particle Hydrodynamics) field, created to fill the gap of limited open-source SPH simulation resources. The goal is to provide a reliable platform for those in the SPH domain to build upon and experiment with.
 
-该项目是实验室SPH方向的基础代码框架。SPH领域的开源代码实在太少了，因此我开发了这样的SPH流体仿真代码框架，供SPH领域的相关同学可以参考借鉴。
+🔍 **Key Objectives:**
 
-本项目有两个目的：
+1. **Lab Requirement:** Build a solid SPH fluid simulation platform as per the lab's needs.
+2. **Open Source:** Share this framework with the broader SPH community, hoping to assist researchers and developers in fluid simulation.
 
-（1）应实验室的要求，构建一个完善的SPH流体仿真平台。
+### 📚 **1. Project Details**
 
-（2）开源给SPH流体仿真领域的相关同学，希望对相关领域研究的同学有所帮助。
+- **Programming Language:** C++
+- **Framework:** Windows
+- **Libraries Used:** QT
+- **Development Environment:** Visual Studio 2017
+- **Note:** This framework mainly uses **C++** (about 90%), with minimal code related to **QT** or rendering. It leverages **QT's OpenGL API** for visualization. If you're familiar with C++, you'll find the code easy to read and extend.
 
+### ⚙️ **2. Key Features**
 
-### 1. 项目基本信息
-* 编程语言：C++
-* 基于框架：Windows
-* 其他引用库：QT
-* 实验环境：Visual Studio 2017
-* 说明：这个项目框架使用的是QT，并且引用QT当中的openGL API进行绘制。为了更加专注于SPH的实现，本项目90%都是纯C++开发。涉及QT及渲染部分的代码非常少。这意味着，只需要你具有C++知识就可以进行阅读学习。
+This project provides a comprehensive set of features to work with SPH simulations:
 
+- **Basic Math Library:** Includes essentials like **MATRIX**, **VECTOR**, and more for fluid computations.
+- **Spatial Partitioning Framework:** The backbone for implementing particle-based fluid simulations in SPH.
+- **WCSPH Fluid Simulation:** One of the classic methods used for fluid dynamics in SPH.
+- **IISPH Fluid Simulation:** Another classical SPH method for simulating fluid motion.
+- **Distance Field-Based Boundary Detection:** Foundation for **solid-liquid coupling** in fluid simulation.
+- **Marching Cubes Algorithm:** Converts particle-based fluid data into a **meshed surface**, allowing for realistic visualization.
+- **QT Visualization Interface:** A user-friendly interface for visualizing the fluid simulation results, making it easier to modify and experiment with different methods.
 
-### 2. 项目实现的功能
-* 基础的数学库：包含MATRIX,VECTOR等。
-* 空间分割框架的实现：这是SPH粒子流实现的基础。
-* WCSPH流体仿真：SPH的经典方法之一。
-* IISPH流体仿真：SPH的经典方法之一。
-* 基于距离场的边界判断：这是实现固液耦合的基础。
-* Marching Cube算法：用于将粒子流体转换为有表面的流体。
-* 完善的QT可视化界面：便于更改方法，可视化流体仿真效果的QT界面。
+### 🔥 **3. Current Progress**
 
-### 3. 目前实现的效果
+Here's what the framework currently offers:
+
+- Fluid simulation with realistic water dynamics 🏞️💧
+- Visual feedback for different fluid behaviors 🎮
+- Easy to integrate and modify methods for further research and experimentation 🔧
+
 
 ![Image](https://github.com/OneSilverBullet/IISPH-WCSPH/blob/master/DEMO/1.png)
 ![Image](https://github.com/OneSilverBullet/IISPH-WCSPH/blob/master/DEMO/2.png)
